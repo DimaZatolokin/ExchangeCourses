@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Exchange Rates Application</string>
+    <string name="main_title">Exchange Rates</string>
+    <string name="one">1</string>
+    <string name="equally">=</string>
+    <string name="choise_currency">--choise--</string>
+    <string name="splash_text">HELLO</string>
+    <string name="wrong_response_toast">Service is not available</string>
+    <string name="wait">Please wait...</string>
+    <string name="show_history">show history</string>
+    <string name="hide_history">hide history</string>
+</resources>
