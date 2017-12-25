@@ -30,13 +30,6 @@ public class ExchangeRatesApp extends Application {
         presenterManager = new PresenterManager(this);
     }
 
-   /* public void startMainActivity() {
-
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-    }*/
-
     public DaoSession getDaoSession() {
         return daoSession;
     }
