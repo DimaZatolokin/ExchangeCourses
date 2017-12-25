@@ -14,27 +14,6 @@ public class PresenterManager {
     public PresenterManager(ExchangeRatesApp app) {
         this.app = app;
     }
-   /* public BasePresenter getPresenter(String viewTag) {
-        for (BasePresenter presenter : presenters) {
-            if (presenter.getView() != null && presenter.getView().getTag().equals(viewTag)) {
-                return presenter;
-            }
-        }
-        return new Presenter();
-    }*/
-
-  /*  public void registerPresenter(BasePresenter presenter) {
-        if (presenter == null) {
-            return;
-        }
-        for (BasePresenter basePresenter : presenters) {
-            if (basePresenter.getView().equals(presenter.getView())) {
-                presenter = basePresenter;
-                return;
-            }
-        }
-        presenters.add(presenter);
-    }*/
 
     public BasePresenter getPresenter(BaseView baseView) {
         for (BasePresenter presenter : presenters) {
