@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"
                     android:gravity="center"
-                    android:text="@string/choise_currency"
+                    android:text="@string/choiсe_currency"
                     android:textSize="16dp" />
 
 
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"
                     android:gravity="center"
-                    android:text="@string/choise_currency"
+                    android:text="@string/choiсe_currency"
                     android:textSize="16dp" />
 
             </FrameLayout>
